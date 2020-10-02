@@ -1,3 +1,5 @@
+These are some minor adjustments to the intl-messageformat element from formatjs (https://github.com/formatjs/intl-messageformat), trying to get it working with Polymer 3. The readme was not updated and is still the one from the original intl-messageformat element!
+
 Intl MessageFormat
 ==================
 

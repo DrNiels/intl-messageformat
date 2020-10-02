@@ -1,5 +1,5 @@
 {
-  "name": "intl-messageformat",
+  "name": "dr-niels-intl-messageformat",
   "version": "2.2.0",
   "description": "Formats ICU Message strings with number, date, plural, and select placeholders to create localized messages.",
   "keywords": [
@@ -59,8 +59,7 @@
   },
   "scripts": {
     "test": "istanbul cover -x lib/locales.js -- _mocha tests/runner.js --reporter spec",
-    "travis": "istanbul cover -x lib/locales.js -- _mocha tests/runner.js --reporter spec && tests/saucelabs.sh",
-    "prepublish": "grunt"
+    "travis": "istanbul cover -x lib/locales.js -- _mocha tests/runner.js --reporter spec && tests/saucelabs.sh"
   },
   "homepage": "https://github.com/yahoo/intl-messageformat",
   "directories": {
